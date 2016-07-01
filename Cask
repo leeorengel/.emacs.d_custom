@@ -1,4 +1,3 @@
-(source "elpy" "http://jorgenschaefer.github.io/packages/")
 (source gnu)
 (source marmalade)
 (source melpa)
@@ -18,7 +17,6 @@
 (depends-on "dired-details+")
 (depends-on "dockerfile-mode")
 (depends-on "edn")
-(depends-on "elpy")
 (depends-on "expand-region")
 (depends-on "f")
 (depends-on "flx")
