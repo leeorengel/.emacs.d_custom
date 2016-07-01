@@ -33,6 +33,10 @@
 ;; beacon
 (beacon-mode 1)
 
+;; nice jumper
+(require 'nice-jumper)
+(nice-jumper-mode t)
+
 ;; Shut up dired ls error message
 (setq dired-use-ls-dired nil)
 
