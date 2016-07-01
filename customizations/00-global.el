@@ -43,5 +43,16 @@
 (smex-initialize)
 (global-set-key (kbd "M-x") 'smex)
 
+;; Run at full power please
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
+(put 'narrow-to-region 'disabled nil)
+
+;; Enable full-screen by default on startup
+(toggle-frame-maximized)
+
+; Set highlight exceeding character limit to 120 rather than 80
+(setq whitespace-line-column 120)
+
 (provide '00-global)
 ;;; 00-global.el ends here
