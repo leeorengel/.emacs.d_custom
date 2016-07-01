@@ -59,4 +59,41 @@
 (global-set-key (kbd "C-s") 'isearch-forward-use-region)
 (global-set-key (kbd "C-r") 'isearch-backward-use-region)
 
+;; Move more quickly
+(global-set-key (kbd "C-S-n") (lambda () (interactive) (ignore-errors (next-line 5))))
+(global-set-key (kbd "C-S-p") (lambda () (interactive) (ignore-errors (previous-line 5))))
+(global-set-key (kbd "C-S-f") (lambda () (interactive) (ignore-errors (forward-char 5))))
+(global-set-key (kbd "C-S-b") (lambda () (interactive) (ignore-errors (backward-char 5))))
+
+;; Move windows, even in org-mode
+(global-set-key (kbd "<s-right>") 'windmove-right)
+(global-set-key (kbd "<s-left>") 'windmove-left)
+(global-set-key (kbd "<s-up>") 'windmove-up)
+(global-set-key (kbd "<s-down>") 'windmove-down)
+
+;; Magit
+(global-set-key (kbd "C-x m") 'magit-status-fullscreen)
+(autoload 'magit-status-fullscreen "magit")
+
+(require 'crux)
+
+;; Duplicate region
+(global-set-key (kbd "C-c d") 'crux-duplicate-current-line-or-region)
+
+;; Projectile
+(global-set-key (kbd "M-o") 'projectile-find-file)
+(global-set-key (kbd "M-O") 'projectile-find-file-in-known-projects)
+(global-set-key (kbd "M-e") 'projectile-recentf)
+
+;; Searching
+(global-set-key (kbd "M-F") 'projectile-ag)
+
+;; Go back/forward
+(global-set-key (kbd "M-[") 'nice-jumper/backward)
+(global-set-key (kbd "M-]") 'nice-jumper/forward)
+
+;; Additional keybindings
+;; Go to line - ala IntelliJ
+(global-set-key (kbd "M-l") 'goto-line)
+
 (provide '02-keybindings.el)
