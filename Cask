@@ -17,6 +17,7 @@
 (depends-on "dired-details+")
 (depends-on "dockerfile-mode")
 (depends-on "edn")
+(depends-on "exec-path-from-shell")
 (depends-on "expand-region")
 (depends-on "f")
 (depends-on "flx")
