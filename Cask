@@ -43,6 +43,7 @@
 (depends-on "projectile")
 (depends-on "rainbow-delimiters")
 (depends-on "smartparens")
+(depends-on "smart-forward")
 (depends-on "smex")
 (depends-on "switch-window")
 (depends-on "visual-regexp")

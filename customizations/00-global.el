@@ -41,7 +41,6 @@
 ;; Smart M-x is smart
 (require 'smex)
 (smex-initialize)
-(global-set-key (kbd "M-x") 'smex)
 
 ;; Run at full power please
 (put 'downcase-region 'disabled nil)
