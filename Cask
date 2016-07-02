@@ -50,6 +50,7 @@
 (depends-on "smartparens")
 (depends-on "smart-forward")
 (depends-on "smex")
+(depends-on "smooth-scrolling")
 (depends-on "switch-window")
 (depends-on "visual-regexp")
 (depends-on "which-key")
