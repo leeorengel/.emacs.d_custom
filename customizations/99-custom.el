@@ -12,7 +12,8 @@
  '(custom-enabled-themes (quote (idea-darkula)))
  '(custom-safe-themes
    (quote
-    ("82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default))))
+    ("82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default)))
+ '(whole-line-or-region-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
