@@ -64,6 +64,9 @@
 ;; Highlight current line
 (global-hl-line-mode 1)
 
+(require 'bash-completion)
+(bash-completion-setup)
+
 ;; BEGIN MAC STUFF
 
 ;; Move to trash when deleting stuff
