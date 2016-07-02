@@ -8,6 +8,9 @@
 (setq global-auto-revert-non-file-buffers t)
 (setq auto-revert-verbose nil)
 
+;; Disable selection with shift keys
+(setq shift-select-mode nil)
+
 ;; Show keystrokes in progress
 (setq echo-keystrokes 0.1)
 
