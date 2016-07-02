@@ -4,6 +4,7 @@
 
 (depends-on "avy")
 (depends-on "aggressive-indent")
+(depends-on "bash-completion")
 (depends-on "beacon")
 (depends-on "better-defaults")
 (depends-on "cask")
@@ -15,6 +16,7 @@
 (depends-on "company")
 (depends-on "company-flx")
 (depends-on "crux")
+(depends-on "dired+")
 (depends-on "diminish")
 (depends-on "dockerfile-mode")
 (depends-on "edn")
@@ -57,5 +59,6 @@
 (depends-on "visual-regexp")
 (depends-on "which-key")
 (depends-on "whitespace-cleanup-mode")
+(depends-on "whole-line-or-region")
 (depends-on "workgroups2")
 (depends-on "yasnippet")

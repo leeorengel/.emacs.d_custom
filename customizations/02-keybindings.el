@@ -24,9 +24,6 @@
 (global-set-key (kbd "M-t s") 'transpose-sexps)
 (global-set-key (kbd "M-t p") 'transpose-params)
 
-;; Use M-w for copy-line if no active region
-(global-set-key (kbd "M-w") 'save-region-or-current-line)
-
 ;; Make shell more convenient, and suspend-frame less
 (global-set-key (kbd "C-z") 'shell)
 
