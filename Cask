@@ -19,6 +19,8 @@
 (depends-on "edn")
 (depends-on "idea-darkula-theme")
 (depends-on "cyberpunk-theme")
+(depends-on "solarized-theme")
+(depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "evil")
 (depends-on "exec-path-from-shell")
 (depends-on "expand-region")
