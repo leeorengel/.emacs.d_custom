@@ -2,7 +2,7 @@
 ;;; Commentary:
 ;;; Code:
 
-(setq custom-file "~/.emacs.d/customizations/99-custom.el")
+(setq custom-file "~/.emacs.d/customizations/99-customize.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -34,5 +34,5 @@
 (set-face-attribute 'default nil
                     :height 140)
 
-(provide '99-custom)
+(provide '99-customize)
 ;;; 99-custom.el ends here

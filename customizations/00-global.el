@@ -71,6 +71,9 @@
 (require 'company)
 (global-company-mode)
 
+;; crux for various useful stuff to keybind to
+(require 'crux)
+
 ;; BEGIN MAC STUFF
 
 ;; Move to trash when deleting stuff

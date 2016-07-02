@@ -76,8 +76,6 @@
 (global-set-key (kbd "C-x m") 'magit-status-fullscreen)
 (autoload 'magit-status-fullscreen "magit")
 
-(require 'crux)
-
 ;; Duplicate region
 (global-set-key (kbd "C-c d") 'crux-duplicate-current-line-or-region)
 
