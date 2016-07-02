@@ -11,11 +11,6 @@
 ;; Make backups of files, even when they're in version control
 (setq vc-make-backup-files t)
 
-;; Save cursor positions between sessions
-(require 'saveplace)
-(setq-default save-place t)
-(setq save-place-file "~/.emacs.d/saved-places")
-
 ;; Make path variables work properly
 (exec-path-from-shell-initialize)
 
