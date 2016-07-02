@@ -40,9 +40,6 @@
 
 ;; CIDER MODE HOOKS
 
-;; flycheck
-(add-hook 'cider-mode-hook 'my-cider-mode-enable-flycheck)
-
 ;; company mode for completion
 (add-hook 'cider-repl-mode-hook #'company-mode)
 (add-hook 'cider-mode-hook #'company-mode)

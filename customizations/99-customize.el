@@ -13,10 +13,10 @@
  '(company-flx-mode t)
  '(company-global-modes t)
  '(company-transformers (quote (company-flx-transformer)))
- '(custom-enabled-themes (quote (idea-darkula)))
+ '(custom-enabled-themes (quote (cyberpunk)))
  '(custom-safe-themes
    (quote
-    ("82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default)))
+    ("71ecffba18621354a1be303687f33b84788e13f40141580fa81e7840752d31bf" "82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default)))
  '(global-linum-mode t)
  '(projectile-global-mode t)
  '(smartparens-global-strict-mode t)
