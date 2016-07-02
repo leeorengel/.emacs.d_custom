@@ -22,7 +22,8 @@
  '(smartparens-global-strict-mode t)
  '(smooth-scrolling-mode t)
  '(tramp-default-method "ssh")
- '(whole-line-or-region-mode t))
+ '(whole-line-or-region-mode t)
+ '(yas-global-mode t nil (yasnippet)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
