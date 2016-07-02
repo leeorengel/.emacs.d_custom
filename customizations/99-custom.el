@@ -13,6 +13,7 @@
  '(custom-safe-themes
    (quote
     ("82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default)))
+ '(projectile-global-mode t)
  '(whole-line-or-region-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

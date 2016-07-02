@@ -5,3 +5,5 @@
 /init.el~
 /ido.last
 /history
+.cask/
+auto-save-list/
