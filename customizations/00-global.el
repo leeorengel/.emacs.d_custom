@@ -67,6 +67,10 @@
 (require 'bash-completion)
 (bash-completion-setup)
 
+;; company for auto-completion
+(require 'company)
+(global-company-mode)
+
 ;; BEGIN MAC STUFF
 
 ;; Move to trash when deleting stuff
