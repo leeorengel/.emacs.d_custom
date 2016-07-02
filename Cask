@@ -15,6 +15,7 @@
 (depends-on "company-flx")
 (depends-on "crux")
 (depends-on "dired-details+")
+(depends-on "diminish")
 (depends-on "dockerfile-mode")
 (depends-on "edn")
 (depends-on "idea-darkula-theme")

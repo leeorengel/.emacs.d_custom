@@ -41,6 +41,9 @@
 (require 'smex)
 (smex-initialize)
 
+;; Visual regexp
+(require 'visual-regexp)
+
 ;; Run at full power please
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
@@ -51,6 +54,15 @@
 
 ; Set highlight exceeding character limit to 120 rather than 80
 (setq whitespace-line-column 120)
+
+;; Don't beep. Don't visible-bell (fails on el capitan). Just blink the modeline on errors.
+(setq visible-bell nil)
+(setq ring-bell-function (lambda ()
+                           (invert-face 'mode-line)
+                           (run-with-timer 0.05 nil 'invert-face 'mode-line)))
+
+;; Highlight current line
+(global-hl-line-mode 1)
 
 ;; BEGIN MAC STUFF
 
