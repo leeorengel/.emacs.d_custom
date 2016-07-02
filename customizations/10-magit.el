@@ -39,4 +39,4 @@
 
      (define-key vc-annotate-mode-map (kbd "q") 'vc-annotate-quit)))
 
-(provide 'magit)
+(provide '10-magit)
