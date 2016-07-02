@@ -1,3 +1,7 @@
+;; Change meta to command key
+(setq mac-option-modifier 'super)
+(setq mac-command-modifier 'meta)
+
 (global-set-key (kbd "C-x C-c") 'save-buffers-kill-terminal)
 
 ;; Smart M-x
@@ -36,7 +40,7 @@
 (global-set-key (kbd "C-x C-i") 'ido-imenu)
 
 ;; File finding
-(global-set-key (kbd "C-x f") 'recentf-ido-find-file)
+(global-set-key (kbd "C-x f") 'crux-recentf-ido-find-file)
 (global-set-key (kbd "C-x C-p") 'find-or-create-file-at-point)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
