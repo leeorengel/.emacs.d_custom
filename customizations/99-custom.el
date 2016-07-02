@@ -29,5 +29,9 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; Set font size and other attributes, 140 = 14 pt.
+(set-face-attribute 'default nil
+                    :height 140)
+
 (provide '99-custom)
 ;;; 99-custom.el ends here
