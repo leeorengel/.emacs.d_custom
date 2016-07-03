@@ -58,7 +58,7 @@
 
 ;; Webjump let's you quickly search google, wikipedia, emacs wiki
 (global-set-key (kbd "C-x g") 'webjump)
-(global-set-key (kbd "C-x M-g") 'browse-url-at-point)
+(global-set-key (kbd "C-x M-g") 'browse-url-at-point)   
 
 ;; Like isearch, but adds region (if any) to history and deactivates mark
 (global-set-key (kbd "C-s") 'isearch-forward-use-region)
@@ -79,6 +79,10 @@
 ;; Magit
 (global-set-key (kbd "C-x m") 'magit-status-fullscreen)
 (autoload 'magit-status-fullscreen "magit")
+
+;; Swap windows
+(global-set-key (kbd "C-c s") 'crux-swap-windows)
+(global-set-key (kbd "C-<backspace>") #'crux-kill-line-backwards)
 
 ;; Duplicate region
 (global-set-key (kbd "C-c d") 'crux-duplicate-current-line-or-region)
