@@ -3,6 +3,15 @@
   (split-window-right)
   (windmove-right))
 
+(defun comment-or-uncomment-region-or-line ()
+    "Comments or uncomments the region or the current line if there's no active region."
+    (interactive)
+    (let (beg end)
+        (if (region-active-p)
+            (setq beg (region-beginning) end (region-end))
+            (setq beg (line-beginning-position) end (line-end-position)))
+        (comment-or-uncomment-region beg end)))
+
 (defun file-name-at-point ()
   (save-excursion
     (let* ((file-name-regexp "[./a-zA-Z0-9\-_~]")

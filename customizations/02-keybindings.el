@@ -98,6 +98,9 @@
 ;; Auto-complete
 (global-set-key (kbd "C-.") 'company-complete)
 
+;; Toggle comment
+(global-set-key (kbd "M-;") 'comment-or-uncomment-region-or-line)
+
 ;; Searching
 (global-set-key (kbd "M-F") 'projectile-ag)
 
