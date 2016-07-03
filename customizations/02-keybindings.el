@@ -43,6 +43,10 @@
 
 (global-set-key (kbd "C-x 3") 'split-window-right-and-move-there-dammit)
 
+;; move-text
+(global-set-key (kbd "<C-S-down>") 'move-text-down)
+(global-set-key (kbd "<C-S-up>") 'move-text-up)
+
 ;; Navigation bindings
 (global-set-key [remap goto-line] 'goto-line-with-feedback)
 

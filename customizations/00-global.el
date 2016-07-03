@@ -28,6 +28,8 @@
 ;; beacon
 (beacon-mode 1)
 
+(require 'transpose-frame)
+
 ;; nice jumper
 (require 'nice-jumper)
 (nice-jumper-mode t)
