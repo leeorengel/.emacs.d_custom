@@ -87,10 +87,16 @@
 ;; Duplicate region
 (global-set-key (kbd "C-c d") 'crux-duplicate-current-line-or-region)
 
+;; Fix indentation in buffer and strip whitespace in the buffer
+(global-set-key (kbd "C-c n") 'crux-cleanup-buffer-or-region)
+
 ;; Projectile
 (global-set-key (kbd "M-o") 'projectile-find-file)
 (global-set-key (kbd "M-O") 'projectile-find-file-in-known-projects)
 (global-set-key (kbd "M-e") 'projectile-recentf)
+
+;; Auto-complete
+(global-set-key (kbd "C-.") 'company-complete)
 
 ;; Searching
 (global-set-key (kbd "M-F") 'projectile-ag)

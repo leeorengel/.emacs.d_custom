@@ -10,13 +10,16 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(company-auto-complete (quote (quote company-explicit-action-p)))
+ '(company-auto-complete-chars nil)
  '(company-flx-mode t)
  '(company-global-modes t)
+ '(company-idle-delay 1.0)
  '(company-transformers (quote (company-flx-transformer)))
  '(custom-enabled-themes (quote (cyberpunk)))
  '(custom-safe-themes
    (quote
     ("71ecffba18621354a1be303687f33b84788e13f40141580fa81e7840752d31bf" "82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default)))
+ '(global-company-mode t)
  '(global-linum-mode t)
  '(projectile-global-mode t)
  '(smartparens-global-strict-mode t)

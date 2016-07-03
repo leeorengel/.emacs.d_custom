@@ -2,6 +2,7 @@
 (source marmalade)
 (source melpa)
 
+(depends-on "ag")
 (depends-on "avy")
 (depends-on "aggressive-indent")
 (depends-on "bash-completion")
