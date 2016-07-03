@@ -7,3 +7,6 @@
 /history
 .cask/
 auto-save-list/
+/.emacs.desktop
+/cider-history
+/projectile.cache
