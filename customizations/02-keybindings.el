@@ -33,8 +33,8 @@
 ;; Create new frame
 (define-key global-map (kbd "C-x C-n") 'make-frame-command)
 
-;; Jump to a definition in the current file. (This is awesome)
-(global-set-key (kbd "C-x C-i") 'ido-imenu)
+;; Jump to a definition in the current file.
+(global-set-key (kbd "C-x C-i") 'imenu)
 
 ;; File finding
 (global-set-key (kbd "C-x f") 'crux-recentf-ido-find-file)
