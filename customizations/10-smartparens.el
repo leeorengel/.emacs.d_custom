@@ -6,9 +6,9 @@
 (add-hook 'emacs-lisp-mode-hook #'smartparens-strict-mode)
 (add-hook 'cider-repl-mode-hook #'smartparens-strict-mode)
 
-(sp-use-smartparens-bindings)
+(sp-use-paredit-bindings)
 
-(setq sp-autoskip-closing-pair 'always)
-(setq sp-hybrid-kill-entire-symbol nil)
+;;(setq sp-autoskip-closing-pair 'always)
+;; (setq sp-hybrid-kill-entire-symbol nil)
 
 (provide '10-smartparens)
